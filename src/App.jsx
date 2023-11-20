@@ -10,6 +10,9 @@ function App() {
         <h2>
           Sample first changes
         </h2>
+        <h2>
+          Sample 3 changes
+        </h2>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
