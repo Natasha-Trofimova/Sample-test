@@ -13,6 +13,8 @@ width: 234px;
 height: 40px;
 outline: none;
 border: none;
+border: 4px solid;
+
 `
 }
 

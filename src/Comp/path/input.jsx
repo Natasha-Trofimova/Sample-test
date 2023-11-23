@@ -1,36 +1,36 @@
 import css from "./input.css"
 const { InputCss } = css
-import { useState } from "react"
-
-// import { useContext } from 'react';
+import { useContext } from 'react'
+import { useState } from 'react'
+import { TxtInputC } from "../Context/TxtInputC"
 
 
 function Input() {
 
-  const [val, setVal] = useState()
-  // const theme = useContext(ThemeContext);
-  
+  const {onChange} = useContext(TxtInputC)
+  const [txt, setTxt] = useState()
+
+
+
   return (
     <>
-      <div >
-        сам инзут
-      </div>
       <InputCss
-        value={val}
+        value={txt}
         type={"text"}
         placeholder={''}
         maxLength={"100"}
         onChange={event => {
-          const NewVal = event.target.value
-          setVal(NewVal)
+          onChange(event.target.value)
+          setTxt(event.target.value)
         }}
       />
-      <div>
+      {/* <div>
         отображение <br />
-        {val}
-      </div>
+        {txt}
+      </div> */}
     </>
   )
 }
 
 export default Input
+

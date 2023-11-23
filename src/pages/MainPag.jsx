@@ -1,4 +1,4 @@
-// import './App.css'
+import '../App.css'
 import Form from "../Comp/local/form"
 
 function MainPag() {
@@ -6,13 +6,10 @@ function MainPag() {
 
   return (
     <>
-      <div >
-        главная страница 
+      <div className='m'>
+        главная страница
+        <Form />
       </div>
-      <div >
-        тут будет инпут
-      </div>
-      <Form/>
     </>
   )
 }

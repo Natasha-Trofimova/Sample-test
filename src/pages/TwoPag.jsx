@@ -1,4 +1,5 @@
 import FormShow from "../Comp/local/formShow"
+import '../App.css'
 
 
 function TwonPag() {
@@ -6,9 +7,10 @@ function TwonPag() {
 
   return (
     <>
-    forma
+    <div className="m">
+    TwonPag 
       <FormShow/>
-      
+    </div>
     </>
   )
 }

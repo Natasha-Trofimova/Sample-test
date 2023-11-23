@@ -1,14 +1,14 @@
 import Input from "../path/input"
+import '../../App.css'
+
 
 function Form() {
 
 
   return (
     <>
-      <div > 
+      <div className="m"> 
       <Input/>
-
-
       </div>
     </>
   )
