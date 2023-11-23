@@ -13,16 +13,6 @@ function App() {
   return (
     <>
       <div className="card">
-        {/* <h2>
-          Sample first changes
-        </h2>
-        <h2>
-          Sample two changes
-        </h2>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      <div className='divMain'> */}
         <TxtInputC.Provider
         value={{
           txt,
