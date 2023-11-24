@@ -25,7 +25,6 @@ function Context2Pag() {
           }}
         >
           <S2howContext />
-
           <C2ontext />
 
         </ThemeContext.Provider>
